@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:text="20*18"
         android:gravity="center|right"
         android:textSize="56sp"
         android:padding="20sp"
@@ -31,7 +30,6 @@
         android:padding="20sp"
         android:textStyle="bold"
         android:textColor="#5C6BC0"
-        android:text="360"
         android:background="#ECEFF1"/>
 
     <LinearLayout
@@ -42,7 +40,7 @@
         android:background="#e3f3fe">
 
         <Button
-            android:id="@+id/clear"
+            android:id="@+id/btnclear"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
@@ -52,7 +50,7 @@
             android:textSize="28sp"/>
 
         <ImageButton
-            android:id="@+id/backspace"
+            android:id="@+id/btnbackspace"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -99,7 +97,7 @@
             android:background="#e3f3fe"/>
 
         <Button
-            android:id="@+id/divide"
+            android:id="@+id/btndivide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -148,7 +146,7 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/multiply"
+            android:id="@+id/btnmul"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -197,7 +195,7 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/subtract"
+            android:id="@+id/btnsub"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -215,7 +213,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/decimal"
+            android:id="@+id/btndecimal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -236,7 +234,7 @@
             android:textSize="28sp"/>
 
         <Button
-            android:id="@+id/equal"
+            android:id="@+id/btnequal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -247,7 +245,7 @@
             android:background="#e3f3fe"/>
 
         <Button
-            android:id="@+id/add"
+            android:id="@+id/btnadd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
